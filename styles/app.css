@@ -242,8 +242,8 @@ body {
 }
 
 .nav__logo {
-    margin-right: 2rem;
-    height: 30px;
+    margin-right: 4rem;
+    height: 25px;
 }
 
 .nav-logo_img {
@@ -401,12 +401,17 @@ body {
 }
 
 .person-comments__text {
+    font-weight: 400;
+}
 
+.comments-container {
+    max-width: 65rem;
+    margin: 3.5rem auto 0 auto;
 }
 
 .comments {
     display: flex;
-    margin: 3.5rem 0;
+    justify-content: space-between;
 }
 
 .comment {
@@ -415,6 +420,8 @@ body {
     margin: 1rem;
     display: flex;
     flex-direction: column;
+    min-height: 15rem;
+    flex-basis: 20rem;
     justify-content: space-between;
 }
 
@@ -452,6 +459,18 @@ body {
     font-size: 0.9rem;
     margin-left: auto;
 }
+
+.companies {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+.company__logo {
+    display: block;
+    margin: 1rem;
+}
+
 
 
 /* Project Responsive */
