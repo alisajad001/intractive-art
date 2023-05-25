@@ -258,7 +258,7 @@ body {
 }
 
 .menu__item {
-    
+
 }
 
 .menu__link{
@@ -276,7 +276,7 @@ body {
 }
 
 .header-bottom {
-    margin-top: 6rem;
+    margin-top: 5.5rem;
 }
 
 .header-content {
@@ -284,37 +284,37 @@ body {
     align-items: center;
 }
 
-.header-content_left {
+.header-content__left {
     flex-basis: 50%;
 }
 
 
-.header-content_right {
+.header-content__right {
     flex-basis: 50%;
 }
 
-.header-content_wrapper{
+.header-content__wrapper{
     width: 30rem;
 }
 
-.header-content_title {
+.header-content__title {
     color: #081D43;
     font-weight: 700;
     line-height: 2.5rem;
 }
 
-.header-content_text {
+.header-content__text {
     color: #6C7890;
     line-height: 2rem;
     font-size: 1.1rem;
 }
 
-.header-content_links {
+.header-content__links {
     display: flex;
 
 }
 
-.header-content_link {
+.header-content__link {
     background-color: #0050C8;
     color: #fff;
     text-decoration: none;
@@ -326,15 +326,118 @@ body {
     text-align: center;
 }
 
-.header-content_link:nth-child(1) {
+.header-content__link:nth-child(1) {
     background-color: #87BC25;
 }
 
-.header-content_img {
+.header-content__img {
     width: 100%;
 }
 
+.main {
+    padding: 6rem 0;
+}
 
+.works {
+    text-align: center;
+}
+
+.works__text {
+    color: #6C7890;
+    margin-bottom: 0;
+}
+
+.works__title {
+    margin-top: 0.8rem;
+}
+
+.works-content {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.works-content__item {
+
+}
+
+.works-content__title {
+    color: #081D43;
+}
+
+.works-content__text {
+    color: #6C7890;
+    line-height: 2rem;
+    max-width: 20rem;
+}
+
+.works-img {
+    max-width: 32rem;
+    margin: 0 auto;
+}
+
+.works-img__img {
+    width: 100%;
+}
+
+.person-comments {
+    background-color: #2F5BEA;
+    color: #fff;
+    text-align: center;
+    padding: 3rem 0;
+    margin-top: 3rem;
+}
+
+.person-comments__title {
+
+}
+
+.person-comments__text {
+
+}
+
+.comments {
+    display: flex;
+    margin: 3.5rem 0;
+}
+
+.comment {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.comment__content {
+    text-align: left;
+    padding: 1.2rem;
+}
+
+.comment__body {
+    font-family: 'Times Roman Italic', serif;
+    color: #6C7890;
+    line-height: 1.5rem;
+    margin: 0;
+}
+
+.comment__info {
+    color: #000;
+    display: flex;
+    align-items: center;
+    padding: 0.8rem 1.2rem;
+    border-top: 1px solid #EBEBEB;
+}
+
+.comment__img {
+    margin-right: 0.5rem;
+}
+
+.comment__user{
+    margin: 0 0 0 0.5rem;
+}
 
 
 
