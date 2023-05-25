@@ -362,8 +362,15 @@ body {
 
 }
 
+.works-content__icon {
+    color: #081D43;
+    font-size: 3rem;
+}
+
 .works-content__title {
     color: #081D43;
+    font-size: 1.4rem;
+    margin-top: 0.8rem;
 }
 
 .works-content__text {
@@ -373,7 +380,7 @@ body {
 }
 
 .works-img {
-    max-width: 32rem;
+    max-width: 35rem;
     margin: 0 auto;
 }
 
@@ -417,10 +424,11 @@ body {
 }
 
 .comment__body {
-    font-family: 'Times Roman Italic', serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: #6C7890;
-    line-height: 1.5rem;
+    line-height: 1.7rem;
     margin: 0;
+    font-style: italic;
 }
 
 .comment__info {
@@ -439,6 +447,11 @@ body {
     margin: 0 0 0 0.5rem;
 }
 
+.user__website{
+    color: #6C7890;
+    font-size: 0.9rem;
+    margin-left: auto;
+}
 
 
 /* Project Responsive */
