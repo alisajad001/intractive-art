@@ -38,7 +38,7 @@ body {
     width: 30px;
     height: 30px;
     position: relative;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     cursor: pointer;
@@ -403,15 +403,62 @@ body {
     .container {
         max-width: 960px;
     }
+
+    .portfolio__item {
+        flex-basis: 28rem;
+    }
+
 }
 
 @media only screen and (max-width: 992px) {
     .container {
         max-width: 720px;
     }
-
+    
     .header__link {
         display: none;
+    }
+
+    .header-content {
+        flex-direction: column-reverse;
+    }
+
+    .header-content__wrapper {
+        margin-top: 3rem;
+    }
+
+    .header-content__img {
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .works-content {
+        gap: 3rem;
+    }
+
+    .comments {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .comment {
+        flex-basis: 12rem;
+        min-height: 10rem;
+    }
+
+    .companies {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .portfolio__item {
+        flex-basis: 20rem;
+    }
+
+    .header-content__links {
+        justify-content: space-evenly;
     }
 }
 
@@ -421,12 +468,88 @@ body {
     }
 
     .menu {
-        display: none;
+        position: absolute;
+        background-color: #386dff;
+        right: -450px;
+        top: 0;
+        width: 50%;
+        height: 100vh;
+        display: block;
+        padding-top: 3rem;
+        transition: 0.3s;
+    }
+
+    .menu__item {
+        font-size: 1.4rem;
+        margin: 2rem;
+    }
+
+    .menu__link {
+        color: #fff;
+        font-weight: 300;
+    }
+
+    .humberger-wrapper {
+        display: flex;
+    }
+    
+    .works-content {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .works-content__item {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .works-content__text {
+        margin: 0 auto;
+    }
+
+    .portfolio-items {
+        justify-content: center;
+    }
+
+    .portfolio__item {
+        flex-basis: 25rem;
+    }
+
+    .news__wrapper {
+        flex-direction: column;
+    }
+
+    .newsletter__email {
+        height: 3.5rem;
+        width: 100%;
+        flex-basis: 0;
     }
 }
 
 @media only screen and (max-width: 576px) {
     .container {
         max-width: 100%;
+    }
+
+    .header-content__title{
+        font-size: 1.5rem;
+    }
+
+    .header-content__text {
+        font-size: 1rem
+    }
+    
+    .header-content__wrapper{
+        width: 100%;
+    }
+
+    .header-content__links {
+        gap: 0.5rem;
+    }
+
+    .header-content__link {
+        margin: 0;
+        width: 9rem;
+        padding: 0.7rem 0.5rem;
     }
 }
