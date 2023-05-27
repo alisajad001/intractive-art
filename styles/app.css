@@ -118,6 +118,10 @@ body {
     border-radius: 0.3rem;
 }
 
+.header__link:hover{
+    background-color: #0046af;
+}
+
 .header-bottom {
     margin-top: 5.5rem;
 }
@@ -157,7 +161,7 @@ body {
 }
 
 .header-content__link {
-    background-color: #0050C8;
+    background-color: #a7e73f;
     color: #fff;
     text-decoration: none;
     padding: 0.8rem 1.5rem;
@@ -168,8 +172,8 @@ body {
     text-align: center;
 }
 
-.header-content__link:nth-child(1) {
-    background-color: #87BC25;
+.header-content__link:hover {
+    background-color: #8bc52f;
 }
 
 .header-content__img {
@@ -196,6 +200,7 @@ body {
 .works-content__icon {
     color: #081D43;
     font-size: 3rem;
+    margin-top: 1.7rem;
 }
 
 .works-content__title {
@@ -391,15 +396,12 @@ body {
     .container {
         max-width: 960px;
     }
-
     .portfolio__item{
         flex-basis: 28rem;
     }
-
     .newsletter__text{
         max-width: 28rem;
     }
-
 }
 
 @media only screen and (max-width: 992px) {
@@ -449,7 +451,6 @@ body {
     .newsletter__text{
         max-width: 20rem;
     }
-
 }
 
 @media only screen and (max-width: 768px) {
@@ -467,7 +468,7 @@ body {
         padding: 2rem 1rem;
         transition: all 0.3s;
     }
-    .menu__item{
+    .menu__item {
         margin-bottom: 2rem;
         font-size: 1.2rem;
     }
