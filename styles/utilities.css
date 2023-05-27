@@ -179,3 +179,16 @@ template {
 [hidden] {
     display: none;
 }
+
+/*======= Typography =======*/
+.section__text {
+    color: #6C7890;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.section__title {
+    margin-top: 0.8rem;
+    font-weight: 500;
+}
